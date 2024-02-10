@@ -1,0 +1,4 @@
+To make the animation :
+1) make yellow div
+2) play video & video up
+3) yellow div (once more)

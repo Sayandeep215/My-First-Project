@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gillroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    
+}
+#back img{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #050505d8; */
+}
+.workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+    /* height: 80%; */
+    height: 100vh;
+    /* background-color: #888; */
+    /* border: 1px solid red; */
+}
+#nav{
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    height: 60px;
+}
+.nleft , .nright{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nav a{
+    pointer-events: all;
+    color: #fff;
+    font-family: "gillroy";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+#hero{
+    position: absolute;
+    transform: translate(0% , -50%);
+    top: 30%;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    gap: 20%;  /* my changes */
+    /* background-color: red; */
+}
+#hero-left{
+    position: relative;
+    min-width: 50%;
+    height: 100px;
+    /* margin-bottom: 20px; */
+    /* background-color: chartreuse; */
+}
+
+#hero-left .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: "kajiro";
+    line-height: 0.9;
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+    
+    
+}
+#hero-left .elem h1:nth-child(1){
+    top: 0;
+}
+#hero-left .elem{
+    position: relative;
+    height: 9vw;   
+    overflow: hidden;
+   
+}
+#hero-left button{
+    padding: 8vw 3vw;
+    font-family: "kajiro";
+    padding: 10px 30px;
+    font-size: 3.5vw;
+    pointer-events: all;
+}
+#hero-right {
+    min-width: 20%;
+    /* height: 40vh; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+#hero-right p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+   
+}
+#hero-right #imagediv{
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-height: 220px;
+    background-image: url(https://images.unsplash.com/photo-1654762702813-57b3fd5b848a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGdpcmwlMjBtb2RlbHxlbnwwfDB8MHx8fDA%3D);
+    background-position: center;
+}
+#hero-right p:nth-child(3){
+    margin-bottom: 60px;
+}

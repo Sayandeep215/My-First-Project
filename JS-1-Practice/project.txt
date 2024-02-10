@@ -1,0 +1,10 @@
+1) First, we have to know that the mouse comes in the rectangle and it is moving or not.✅
+2) Calculate , we are in centre to left side or centre to right side.✅
+3) Then calculate , how much distance we are from left and right , then use color of intensity.
+
+** new things:
+// getBoundingClientRect() => These properties (top, left, bottom, right, width, height) provide information about the position and dimensions of the element on the screen. The values are relative to the top-left corner of the viewport. This is DOM Api,it returns the value of size,width,height,position(top,right,bottom,left) .
+
+
+// gsap.maprange() => gsap.utils.mapRange() method to map a value from one range to another. 
+Notation : mapRange(inMin, inMax, outMin, outMax, valueToMap)

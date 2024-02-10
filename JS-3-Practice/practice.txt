@@ -1,0 +1,8 @@
+In this project we have used a new concept , that is called Throttling.
+Throttling :-> Throttling ensures that the function is not called more often than a specified time interval. There are different ways to implement throttling in JavaScript, but the two most common methods involve using the setTimeout function or the requestAnimationFrame function.
+
+Process of making project in js :
+1) Every time make a div.
+2) Do, absolute the div , give width,height and also overflow:hidden.
+3) Make image in the div and push the image beneath the div.
+4) Animated the image : way to upper and pop. 
